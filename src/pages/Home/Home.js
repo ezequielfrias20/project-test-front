@@ -18,7 +18,7 @@ const Home = () => {
   const [open, setOpen] = useState(false);
   const [bill, setBill] = useState(null);
   const [isLoading, setIsLoading] = useState(true);
-  const [isLoadingModal, setIsLoadingModal] = useState(true);
+  const [isLoadingModal, setIsLoadingModal] = useState(false);
   const [reload, setReload] = useState(true);
 
   const getBills = () => {

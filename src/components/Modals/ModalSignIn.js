@@ -155,29 +155,6 @@ const ModalSignIn = ({ login, navigate }) => (
                   )}
                 </Formik>
               </Box>
-              <Divider sx={{ my: 3 }} />
-              <Box
-                sx={{
-                  display: "flex",
-                  justifyContent: "space-between",
-                  mt: 3,
-                }}
-              >
-                <Link
-                  color="textSecondary"
-                  component={RouterLink}
-                  to="/signup"
-                  variant="body2"
-                >
-                  Sign up
-                </Link>
-                <Link
-                  color="textSecondary"
-                  variant="body2"
-                >
-                  Forgot Password?
-                </Link>
-              </Box>
             </CardContent>
           </Card>
         </Container>
